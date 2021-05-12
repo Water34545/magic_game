@@ -22,5 +22,5 @@ jobs:
         run: |
           git config --global user.email "water34545@yandex.ru"
           git config --global user.name "Water34545"
-          git remote set-url origin https://${{ secrets.GH_PAGES }}@github.com/magic_game/angler.git
+          git remote set-url origin https://${{ secrets.GH_PAGES }}@github.com/Water34545/magic_game.git
           npm run deploy:gh-pages
