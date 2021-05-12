@@ -1,4 +1,6 @@
 import './App.scss'
+
+import React from 'react'
 import MenuPage from './pages/menu'
 //import GamePage from './pages/game'
 
