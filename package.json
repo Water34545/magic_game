@@ -1,5 +1,6 @@
 {
 	"name": "magic_game",
+	"homepage": "https://Water34545.github.io/magic_game",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -20,7 +21,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"lint": "eslint --fix",
-		"deploy:gh-pages": "gh-pages -d dist"
+		"deploy:gh-pages": "gh-pages -d build"
 	},
 	"gitHooks": {
 		"pre-commit": "lint-staged"
