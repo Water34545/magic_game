@@ -1,13 +1,13 @@
-import './App.css'
+import './App.scss'
+import MenuPage from './pages/menu'
+//import GamePage from './pages/game'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Magic Game Start</p>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<div className="App">
+			<MenuPage />
+		</div>
+	)
 }
 
 export default App
