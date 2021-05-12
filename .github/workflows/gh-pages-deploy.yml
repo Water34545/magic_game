@@ -1,8 +1,5 @@
 name: GitHub Pages Action
-on:
-  push:
-    branches:
-      - master
+on: [push]
 jobs:
   gh-pages:
     name: GitHub Pages
