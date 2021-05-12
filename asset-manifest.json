@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magic_game/static/css/main.d8a6d06e.chunk.css",
+    "main.css": "/magic_game/static/css/main.c76abe11.chunk.css",
     "main.js": "/magic_game/static/js/main.cf444c2f.chunk.js",
     "main.js.map": "/magic_game/static/js/main.cf444c2f.chunk.js.map",
     "runtime-main.js": "/magic_game/static/js/runtime-main.0e9baed8.js",
@@ -8,7 +8,7 @@
     "static/js/2.ec25bb2e.chunk.js": "/magic_game/static/js/2.ec25bb2e.chunk.js",
     "static/js/2.ec25bb2e.chunk.js.map": "/magic_game/static/js/2.ec25bb2e.chunk.js.map",
     "index.html": "/magic_game/index.html",
-    "static/css/main.d8a6d06e.chunk.css.map": "/magic_game/static/css/main.d8a6d06e.chunk.css.map",
+    "static/css/main.c76abe11.chunk.css.map": "/magic_game/static/css/main.c76abe11.chunk.css.map",
     "static/js/2.ec25bb2e.chunk.js.LICENSE.txt": "/magic_game/static/js/2.ec25bb2e.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/magic_game/static/media/menu-bg.8e5f9172.jpg",
     "static/media/menu-bg.357471de.mp3": "/magic_game/static/media/menu-bg.357471de.mp3"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.0e9baed8.js",
     "static/js/2.ec25bb2e.chunk.js",
-    "static/css/main.d8a6d06e.chunk.css",
+    "static/css/main.c76abe11.chunk.css",
     "static/js/main.cf444c2f.chunk.js"
   ]
 }
