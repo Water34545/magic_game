@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FirstMenu = () => {
+const PlayersMenu = () => {
 	return <div>
 		<p className="menu-block__text">Choose numder of players:</p>
 		<ul className="menu">
@@ -12,4 +12,4 @@ const FirstMenu = () => {
 	</div>
 }
 
-export default FirstMenu
+export default PlayersMenu

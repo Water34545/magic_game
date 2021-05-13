@@ -1,0 +1,23 @@
+.location {
+	position: relative;
+	width: 100vw;
+	height: 70vh;
+	padding: 20px;
+	background-image: url("../../../images/Diagon Alley.jpg");
+	background-position: bottom;
+	background-size: cover;
+
+	&-top {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	&-bottom {
+		width: calc(100% - 40px);
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		bottom: 0px;
+	}
+}

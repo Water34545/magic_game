@@ -1,0 +1,33 @@
+.characters {
+	width: 300px;
+	padding: 20px;
+	border-style: solid;
+	border-image-width: 7.5px;
+	border-image-slice: 15;
+	border-image-repeat: round;
+	border-image-source: url("../../../../images/border.png");
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.character {
+	display: flex;
+	justify-content: start;
+	margin-bottom: 10px;
+
+	&__img {
+		width: 50px;
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+	&__name {
+		font-size: 18px;
+		margin: 0;
+	}
+	&-info {
+		display: flex;
+		p {
+			margin-right: 5px;
+		}
+	}
+}

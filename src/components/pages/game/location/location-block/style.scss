@@ -1,0 +1,17 @@
+.location-block {
+	padding: 30px 40px;
+	background: url("../../../../images/location-bg.png");
+	background-size: 100% 100%;
+	text-align: center;
+
+	&__name {
+		color: black;
+		font-size: 20px;
+		margin: 0 0 15px;
+	}
+	&__influence {
+		font-size: 16px;
+		color: black;
+		margin: 0;
+	}
+}
