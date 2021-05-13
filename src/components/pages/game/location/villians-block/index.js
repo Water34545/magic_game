@@ -4,6 +4,7 @@ import villianLogo from '../../../../images/Crabby and Goyle.jpg'
 
 const VilliansBlock = () => {
 	return <div className="villians">
+		<p className="location__titles">Villians</p>
 		<div className="villian villians__item">
 			<div className="villian-main">
 				<img className="villian__img" src={villianLogo} alt="Crabby and Goyle" />

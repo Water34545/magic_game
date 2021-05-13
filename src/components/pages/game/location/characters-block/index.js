@@ -4,6 +4,7 @@ import userLogo from '../../../../images/hermione.jpg'
 
 const CharactersBlock = () => {
 	return <div className="characters">
+		<p className="location__title">Heroes</p>
 		<div className="character characters__item">
 			<img className="character__img" src={userLogo} alt="Hermione Granger" />
 			<div>
