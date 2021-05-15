@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/magic_game/static/css/main.cff505aa.chunk.css",
-    "main.js": "/magic_game/static/js/main.e1433af4.chunk.js",
-    "main.js.map": "/magic_game/static/js/main.e1433af4.chunk.js.map",
+    "main.css": "/magic_game/static/css/main.0c9efe31.chunk.css",
+    "main.js": "/magic_game/static/js/main.68b8ead5.chunk.js",
+    "main.js.map": "/magic_game/static/js/main.68b8ead5.chunk.js.map",
     "runtime-main.js": "/magic_game/static/js/runtime-main.0e9baed8.js",
     "runtime-main.js.map": "/magic_game/static/js/runtime-main.0e9baed8.js.map",
     "static/js/2.ec25bb2e.chunk.js": "/magic_game/static/js/2.ec25bb2e.chunk.js",
     "static/js/2.ec25bb2e.chunk.js.map": "/magic_game/static/js/2.ec25bb2e.chunk.js.map",
     "index.html": "/magic_game/index.html",
-    "static/css/main.cff505aa.chunk.css.map": "/magic_game/static/css/main.cff505aa.chunk.css.map",
+    "static/css/main.0c9efe31.chunk.css.map": "/magic_game/static/css/main.0c9efe31.chunk.css.map",
     "static/js/2.ec25bb2e.chunk.js.LICENSE.txt": "/magic_game/static/js/2.ec25bb2e.chunk.js.LICENSE.txt",
-    "static/media/Crabby and Goyle.ce96c23a.jpg": "/magic_game/static/media/Crabby and Goyle.ce96c23a.jpg",
-    "static/media/Crabby-and-Goyle-location.9451c292.png": "/magic_game/static/media/Crabby-and-Goyle-location.9451c292.png",
-    "static/media/style.scss": "/magic_game/static/media/menu-bg.8e5f9172.jpg",
+    "static/media/Crabby-and-Goyle-location.b096dba0.png": "/magic_game/static/media/Crabby-and-Goyle-location.b096dba0.png",
+    "static/media/Crabby-and-Goyle.663765a7.jpg": "/magic_game/static/media/Crabby-and-Goyle.663765a7.jpg",
+    "static/media/Diagon_Alley.a70da261.jpg": "/magic_game/static/media/Diagon_Alley.a70da261.jpg",
+    "static/media/Mirror_of_erised.c258f7eb.jpg": "/magic_game/static/media/Mirror_of_erised.c258f7eb.jpg",
     "static/media/card.scss": "/magic_game/static/media/border.6cff7f5e.png",
-    "static/media/menu-bg.357471de.mp3": "/magic_game/static/media/menu-bg.357471de.mp3"
+    "static/media/draco-location.bb6f31f2.png": "/magic_game/static/media/draco-location.bb6f31f2.png",
+    "static/media/style.scss": "/magic_game/static/media/menu-bg.8e5f9172.jpg",
+    "static/media/menu-bg.357471de.mp3": "/magic_game/static/media/menu-bg.357471de.mp3",
+    "static/media/quirel-location.97676a97.png": "/magic_game/static/media/quirel-location.97676a97.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0e9baed8.js",
     "static/js/2.ec25bb2e.chunk.js",
-    "static/css/main.cff505aa.chunk.css",
-    "static/js/main.e1433af4.chunk.js"
+    "static/css/main.0c9efe31.chunk.css",
+    "static/js/main.68b8ead5.chunk.js"
   ]
 }
