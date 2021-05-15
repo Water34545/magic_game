@@ -1,18 +1,19 @@
 import "./style.scss"
 import React from "react"
-import villianLogo from '../../../../images/Crabby and Goyle.jpg'
+import villians from "../../../../card-collections/villians"
 
 const VilliansBlock = () => {
+	const { name, icon, health, text, reward } = villians[2]
 	return <div className="villians">
 		<p className="location__title">Villians</p>
 		<div className="villian villians__item">
 			<div className="villian-main">
-				<img className="villian__img" src={villianLogo} alt="Crabby and Goyle" />
-				<p className="villian__name">Crabby and Goyle</p>
-				<p className="villian__heals">Heals: 10</p>
+				<img className="villian__img" src={icon} alt="Crabby and Goyle" />
+				<p className="villian__name">{name}</p>
+				<p className="villian__heals">Heals: {health}</p>
 			</div>
-			<p className="villian__pover"><strong>Pover</strong>: Each time a dark Arts event or Villian causes a Hero to discard a card that hero loses 1 health</p>
-			<p className="villian__reward"><strong>Reward</strong>: All heroes take 1 card</p>
+			<p className="villian__pover"><strong>Pover</strong>: {text}</p>
+			<p className="villian__reward"><strong>Reward</strong>: {reward}</p>
 		</div>
 	</div>
 }

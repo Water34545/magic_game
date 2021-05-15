@@ -1,28 +1,22 @@
 import './style.scss'
 import React from 'react'
 import Сard from './card'
-import userLogo from '../../../images/hermione.jpg'
+import heroes from '../../../card-collections/heroes'
 
 const HeroBlock = () => {
+	const { img, name, text, cards } = heroes[0]
 	return <div className="hero-block">
 		<div className="hero-block-info">
 			<div className="hero-block-info__header">
-				<img className="hero-block-info__img" src={userLogo} alt="Hermione Granger" />
-				<h2 className="hero-block-info__name">Hermione Granger</h2>
+				<img className="hero-block-info__img" src={img} alt={name} />
+				<h2 className="hero-block-info__name">{name}</h2>
 			</div>
-			<p className="hero-block-info__text">- Now if you two don&apos;t mind, I&apos;m going to bad before either of you come up with anouther clever idea to get us killed - or worde, expelled</p>
+			<p className="hero-block-info__text">{text}</p>
 		</div>
 		<div className="hero-block-cards">
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
-			<div className="hero-block-cards__item"><Сard /></div>
+			{cards.map((card, index) =>
+				<div className="hero-block-cards__item" key={`${card.name}-${index}`}><Сard /></div>
+			)}
 		</div>
 	</div>
 }

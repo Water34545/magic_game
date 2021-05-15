@@ -11,9 +11,9 @@ const MenuPage = () => {
 		<audio src={menuSound} autoPlay loop></audio>
 		<div className="menu-block">
 			<h1 className="menu-block__title">Battle for Hogwarts</h1>
-			{true && <StartMenu />}
+			{false && <StartMenu />}
 			{false && <PlayersMenu />}
-			{false && <СharacterMenu />}
+			{true && <СharacterMenu />}
 		</div>
 	</div>
 }

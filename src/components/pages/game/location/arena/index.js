@@ -1,9 +1,10 @@
 import React from "react"
-import vilianImg from "../../../../images/Crabby-and-Goyle-location.png"
+import villians from "../../../../card-collections/villians"
 
 const Arena = () => {
+	const { img, name } = villians[0]
 	return <div>
-		<img src={vilianImg} alt="vilian" />
+		<img src={img} alt={name} />
 	</div>
 }
 
