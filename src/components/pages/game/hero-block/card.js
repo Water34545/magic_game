@@ -1,14 +1,19 @@
-import './card.scss'
-import React from 'react'
-import userLogo from '../../../images/hermione.jpg'
+import "./card.scss"
+import React from "react"
+import PropTypes from "prop-types"
 
-const Сard = () => {
+const Сard = ({ card }) => {
 	return <div className="card">
-		<img className="card__img" src={userLogo} alt="Hermione Granger" />
-		<p className="card__name">Allahomora</p>
-		<p className="card__type card__type-spell">spell</p>
-		<p className="card__text">get 1 coin</p>
+		<img className="card__img" src={card.img} alt={card.name} />
+		<p className="card__name">
+			<span className="card__type">{card.type}</span>: {card.name}
+		</p>
+		<p className="card__text">{card.text}</p>
 	</div>
+}
+
+Сard.propTypes = {
+	card: PropTypes.object.isRequired,
 }
 
 export default Сard

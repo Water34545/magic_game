@@ -1,6 +1,7 @@
 import "./style.scss"
 import React from "react"
 import heroes from '../../../../card-collections/heroes'
+import Emoji from '../../../../common/emoji'
 
 const CharactersBlock = () => {
 	return <div className="characters">
@@ -11,10 +12,10 @@ const CharactersBlock = () => {
 				<div>
 					<p className="character__name">{hero.name}</p>
 					<div className="character-info">
-						<p className="character__heals">Heals: {hero.health}</p>
-						<p className="character__money">Coins: {hero.coins}</p>
-						<p className="character__damage">Damage: {hero.damage}</p>
-						<p className="character__cards">Cards: {hero.cards.length}</p>
+						<p className="character__heals"><Emoji symbol="❤️" label="heals" />: {hero.health}</p>
+						<p className="character__money"><Emoji symbol="💰" label="money" />: {hero.coins}</p>
+						<p className="character__damage"><Emoji symbol="⚡" label="damage" />: {hero.damage}</p>
+						<p className="character__cards"><Emoji symbol="🗒️" label="cards" />: {hero.cards.length}</p>
 					</div>
 				</div>
 			</div>

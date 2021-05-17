@@ -15,7 +15,7 @@ const HeroBlock = () => {
 		</div>
 		<div className="hero-block-cards">
 			{cards.map((card, index) =>
-				<div className="hero-block-cards__item" key={`${card.name}-${index}`}><Сard /></div>
+				<div className="hero-block-cards__item" key={`${card.name}-${index}`}><Сard card={card} /></div>
 			)}
 		</div>
 	</div>

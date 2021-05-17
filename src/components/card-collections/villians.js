@@ -8,24 +8,24 @@ import QuirelImg from "../images/villians/quirel-location.png"
 const villians = [
 	{
 		name: "Crabby and Goyle",
-		text: "Each time a dark Arts event or Villian causes a Hero to discard a card that hero loses 1 health",
-		reward: "All heroes get 1 card",
+		text: "Each time a dark Arts event or Villian causes a Hero to discard 🗒️ that hero loses 1 ❤️",
+		reward: "All heroes get 1 🗒️",
 		health: 5,
 		icon: CrabbyAndGoyleIcon,
 		img: CrabbyAndGoyleImg
 	},
 	{
 		name: "Draco Malfoy",
-		text: "Each time a dark power ups in the location, active hero loses 2 health",
-		reward: "Hemove 1 Influence of Villians frome the location",
+		text: "Each time a dark power ups in the location, active hero loses 2 ❤️",
+		reward: "Hemove 1 dark power frome the location",
 		health: 6,
 		icon: DracoMalfoyIcon,
 		img: DracoMalfoyImg
 	},
 	{
 		name: "Quirinus Quirrell",
-		text: "Active hero loses 1 health",
-		reward: "All heroes get 1 health and 1 coin",
+		text: "Active hero loses 1 ❤️",
+		reward: "All heroes get 1 ❤️ and 1 💰",
 		health: 6,
 		icon: QuirelIcon,
 		img: QuirelImg

@@ -1,5 +1,6 @@
 import "./style.scss"
 import React from "react"
+import Emoji from '../../../../common/emoji'
 import villians from "../../../../card-collections/villians"
 
 const VilliansBlock = () => {
@@ -10,7 +11,7 @@ const VilliansBlock = () => {
 			<div className="villian-main">
 				<img className="villian__img" src={icon} alt="Crabby and Goyle" />
 				<p className="villian__name">{name}</p>
-				<p className="villian__heals">Heals: {health}</p>
+				<p className="villian__heals"><Emoji symbol="❤️" label="heals" />: {health}</p>
 			</div>
 			<p className="villian__pover"><strong>Pover</strong>: {text}</p>
 			<p className="villian__reward"><strong>Reward</strong>: {reward}</p>
